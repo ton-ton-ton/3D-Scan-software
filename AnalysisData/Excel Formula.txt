@@ -1,0 +1,7 @@
+X：
+=INDEX($A$1:$A$250,ROW(A1)*2, )
+=INDEX($A$1:$A$250,ROW(A1)*2-1, )
+
+Y：
+=INDEX($B$1:$B$250,ROW(B1)*2, )
+=INDEX($B$1:$B$250,ROW(B1)*2-1, )

@@ -1,0 +1,38 @@
+IR-LED_AutoFR _0.5mm_70squal_8000cpi_Motor5-1
+
+	1. 回歸方程有使用截距
+程式碼：
+            if (axis == 'X')
+            {
+                if (_dis1 > 0) { dis = (1.0 / 0.6167) * (_dis1 + 0.0012); }
+                else if (_dis1 < 0) { dis = (1.0 / 0.6087) * (_dis1 - 0.0011); }
+                else { dis = _dis1; }
+            }
+            else
+            {
+                if (_dis1 > 0) { dis = (1.0 / 0.5777) * (_dis1 + 0.0011); }
+                else if (_dis1 < 0) { dis = (1.0 / 0.5759) * (_dis1 - 0.0012); }
+                else { dis = _dis1; }
+            }
+
+//============================================
+
+
+IR-LED_AutoFR _0.5mm_70squal_8000cpi_Motor5
+
+	1. 回歸方程截距為 0 
+
+程式碼：
+
+	    if (axis == 'X')
+            {
+                if (_dis1 > 0) { dis = (1.0 / 0.5833) * (_dis1); }
+                else if (_dis1 < 0) { dis = (1.0 / 0.5761) * (_dis1); }
+                else { dis = _dis1; }
+            }
+            else
+            {
+                if (_dis1 > 0) { dis = (1.0 / 0.5467) * (_dis1); }
+                else if (_dis1 < 0) { dis = (1.0 / 0.5409) * (_dis1); }
+                else { dis = _dis1; }
+            }

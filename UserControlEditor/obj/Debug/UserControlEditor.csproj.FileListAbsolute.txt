@@ -1,0 +1,17 @@
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\bin\Debug\UserControlEditor.dll
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\bin\Debug\UserControlEditor.pdb
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\depend\UserControlEditor.dll
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\depend\UserControlEditor.pdb
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\bin\UserControlEditor(dll)\UserControlEditor.dll
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\bin\UserControlEditor(dll)\UserControlEditor.pdb
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.EditorConnect.resources
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.SubMenu1_CurFil.resources
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.SubMenu1_Scan.resources
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.SubMenu1_Output.resources
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.SubMenu1_Setting.resources
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.csproj.GenerateResource.cache
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.csproj.CoreCompileInputs.cache
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.csproj.CopyComplete
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.dll
+C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\UserControlEditor\obj\Debug\UserControlEditor.pdb
