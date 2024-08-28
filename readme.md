@@ -1,6 +1,5 @@
 <!--底下標籤來源參考寫法可至：https://github.com/Envoy-VC/awesome-badges#github-stats -->
 
-![](https://img.shields.io/badge/Accord-3.8.2-blue) &nbsp; ![](https://img.shields.io/badge/Activiz.NET-5.8.0-blue) &nbsp; ![](https://img.shields.io/badge/FontAwesome.Sharp-6.6.0-blue) &nbsp; ![](https://img.shields.io/badge/OxyPlot-1.0.0-blue) &nbsp; ![](https://img.shields.io/badge/PCL-1.12.0-greenyellow) 
 
 
 ## 介紹
@@ -12,9 +11,24 @@
 
 主要功能為即時顯示掃描後的點雲數據
 
+- ### 裝置功能區
+包含與感測裝置通訊的基礎設置與校正慣性感測器與光學位移感測器的功能按鈕
+![不同頁面](doc/SubMode_total.png)
+- ### 狀態顯示
+顯示操作本系統的執行日誌，用以確認當下執行流程與程式執行狀態
+- ### 操作流程區
+從左至右依序執行點雲掃描流程，從一開始的基礎設定 `"Setting"`，接續掃描點雲數據的 `"Scan"`，掃描後的點雲數據預處理 `"Curve/Filting"`，最後依特定格式輸出的 `"Output"`
+- ### 點雲顯示區
+顯示操作本系統的執行日誌，用以確認當下執行流程與程式執行狀態
 
 
 > ps. 需與本研究自主開發的 3D 點雲擷取設備搭配使用
+
+## 功能
+
+
+## 第三方開源函式庫
+![](https://img.shields.io/badge/Accord-3.8.2-blue) &nbsp; ![](https://img.shields.io/badge/Activiz.NET-5.8.0-blue) &nbsp; ![](https://img.shields.io/badge/FontAwesome.Sharp-6.6.0-blue) &nbsp; ![](https://img.shields.io/badge/OxyPlot-1.0.0-blue) &nbsp; ![](https://img.shields.io/badge/PCL-1.12.0-greenyellow) 
 
 ## 功能
 
