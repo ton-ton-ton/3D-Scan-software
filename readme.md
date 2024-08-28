@@ -1,19 +1,20 @@
 <!--底下標籤來源參考寫法可至：https://github.com/Envoy-VC/awesome-badges#github-stats -->
 
-![](https://img.shields.io/badge/Accord-3.8.2-blue) &nbsp; ![](https://img.shields.io/badge/Activiz.NET-5.8.0-blue) &nbsp; ![](https://img.shields.io/badge/FontAwesome.Sharp-6.6.0-blue) &nbsp; ![](https://img.shields.io/badge/OxyPlot-1.0.0-blue) &nbsp; ![](https://img.shields.io/badge/PCL-1.12.0-blue) 
+![](https://img.shields.io/badge/Accord-3.8.2-blue) &nbsp; ![](https://img.shields.io/badge/Activiz.NET-5.8.0-blue) &nbsp; ![](https://img.shields.io/badge/FontAwesome.Sharp-6.6.0-blue) &nbsp; ![](https://img.shields.io/badge/OxyPlot-1.0.0-blue) &nbsp; ![](https://img.shields.io/badge/PCL-1.12.0-greenyellow) 
+
 
 ## 介紹
+![](https://img.shields.io/badge/語法-C%23-blue) &nbsp; ![](https://img.shields.io/badge/框架-.Net&nbsp;Framework&nbsp;4.8-blue) &nbsp; ![](https://img.shields.io/badge/作業系統-Windows-blue) &nbsp; ![](https://img.shields.io/badge/UI-Windos&nbsp;Forms-blue)
 
-><span style="color:black"> 需與本研究自主開發的 3D 點雲擷取設備搭配使用</span>
 
 
 ![專案封面圖](doc/MainForm.png)
 
+主要功能為即時顯示掃描後的點雲數據
 
 
 
-
-- [線上觀看連結](https://israynotarray.com/)
+> ps. 需與本研究自主開發的 3D 點雲擷取設備搭配使用
 
 ## 功能
 
