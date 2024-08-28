@@ -49,6 +49,7 @@ namespace SerialClient
             this.toolStripComboBox_WindowItems = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripbtn_SpectrumWindowed = new System.Windows.Forms.ToolStripButton();
             this.toolStripbtn_YAisScale = new System.Windows.Forms.ToolStripButton();
+            this.toolStripBtn_SavingData = new System.Windows.Forms.ToolStripButton();
             this.Splitter = new System.Windows.Forms.SplitContainer();
             this.SubSplitContainer = new System.Windows.Forms.SplitContainer();
             this.panel_DataPlot = new System.Windows.Forms.Panel();
@@ -58,7 +59,6 @@ namespace SerialClient
             this.dgvplots = new System.Windows.Forms.DataGridView();
             this.VisibleSereis = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Signal = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.toolStripBtn_SavingData = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Splitter)).BeginInit();
             this.Splitter.Panel1.SuspendLayout();
@@ -92,10 +92,10 @@ namespace SerialClient
             this.toolStripbtn_YAisScale,
             this.toolStripBtn_SavingData});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.toolStrip1.Margin = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1229, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(922, 31);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -107,7 +107,7 @@ namespace SerialClient
             this.btn_PauseRun.Image = ((System.Drawing.Image)(resources.GetObject("btn_PauseRun.Image")));
             this.btn_PauseRun.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_PauseRun.Name = "btn_PauseRun";
-            this.btn_PauseRun.Size = new System.Drawing.Size(49, 28);
+            this.btn_PauseRun.Size = new System.Drawing.Size(44, 28);
             this.btn_PauseRun.Text = "Pause";
             this.btn_PauseRun.Click += new System.EventHandler(this.btn_PauseRun_Click);
             // 
@@ -123,7 +123,7 @@ namespace SerialClient
             this.BTN_ShowLegend.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.BTN_ShowLegend.Name = "BTN_ShowLegend";
             this.BTN_ShowLegend.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BTN_ShowLegend.Size = new System.Drawing.Size(29, 28);
+            this.BTN_ShowLegend.Size = new System.Drawing.Size(28, 28);
             this.BTN_ShowLegend.Text = " Show Legend";
             this.BTN_ShowLegend.Click += new System.EventHandler(this.btn_ShowLegend_Click);
             // 
@@ -135,7 +135,7 @@ namespace SerialClient
             this.toolStripBtn_FPS.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripBtn_FPS.Margin = new System.Windows.Forms.Padding(10, 1, 0, 2);
             this.toolStripBtn_FPS.Name = "toolStripBtn_FPS";
-            this.toolStripBtn_FPS.Size = new System.Drawing.Size(29, 28);
+            this.toolStripBtn_FPS.Size = new System.Drawing.Size(28, 28);
             this.toolStripBtn_FPS.ToolTipText = "Frame Rate";
             this.toolStripBtn_FPS.Click += new System.EventHandler(this.toolStripBtn_FPS_Click);
             // 
@@ -147,7 +147,7 @@ namespace SerialClient
             this.btn_ShowSpectrum.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_ShowSpectrum.Margin = new System.Windows.Forms.Padding(10, 1, 0, 2);
             this.btn_ShowSpectrum.Name = "btn_ShowSpectrum";
-            this.btn_ShowSpectrum.Size = new System.Drawing.Size(29, 28);
+            this.btn_ShowSpectrum.Size = new System.Drawing.Size(28, 28);
             this.btn_ShowSpectrum.Text = " Spectrum Plot";
             this.btn_ShowSpectrum.Click += new System.EventHandler(this.btn_ShowSpectrum_Click);
             // 
@@ -157,7 +157,7 @@ namespace SerialClient
             this.toolStripLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.toolStripLabel1.Margin = new System.Windows.Forms.Padding(10, 1, 0, 2);
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(93, 28);
+            this.toolStripLabel1.Size = new System.Drawing.Size(80, 28);
             this.toolStripLabel1.Text = "Time-Length :";
             // 
             // TB_XAxisTime
@@ -169,7 +169,7 @@ namespace SerialClient
             this.TB_XAxisTime.Margin = new System.Windows.Forms.Padding(1, 0, 1, 1);
             this.TB_XAxisTime.MergeIndex = 0;
             this.TB_XAxisTime.Name = "TB_XAxisTime";
-            this.TB_XAxisTime.Size = new System.Drawing.Size(65, 30);
+            this.TB_XAxisTime.Size = new System.Drawing.Size(49, 30);
             this.TB_XAxisTime.Text = "*";
             this.TB_XAxisTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TB_XAxisTime_KeyPress);
             this.TB_XAxisTime.Validating += new System.ComponentModel.CancelEventHandler(this.TB_XAxisTime_Validating);
@@ -181,7 +181,7 @@ namespace SerialClient
             this.toolStripLabel_windows.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel_windows.Image")));
             this.toolStripLabel_windows.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.toolStripLabel_windows.Name = "toolStripLabel_windows";
-            this.toolStripLabel_windows.Size = new System.Drawing.Size(76, 28);
+            this.toolStripLabel_windows.Size = new System.Drawing.Size(67, 28);
             this.toolStripLabel_windows.Text = "Windows : ";
             // 
             // btn_ShowNames
@@ -192,7 +192,7 @@ namespace SerialClient
             this.btn_ShowNames.Image = ((System.Drawing.Image)(resources.GetObject("btn_ShowNames.Image")));
             this.btn_ShowNames.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_ShowNames.Name = "btn_ShowNames";
-            this.btn_ShowNames.Size = new System.Drawing.Size(29, 28);
+            this.btn_ShowNames.Size = new System.Drawing.Size(23, 28);
             this.btn_ShowNames.Text = "▶";
             this.btn_ShowNames.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -206,7 +206,7 @@ namespace SerialClient
             "Null"});
             this.toolStripComboBox_WindowItems.MaxDropDownItems = 10;
             this.toolStripComboBox_WindowItems.Name = "toolStripComboBox_WindowItems";
-            this.toolStripComboBox_WindowItems.Size = new System.Drawing.Size(121, 31);
+            this.toolStripComboBox_WindowItems.Size = new System.Drawing.Size(92, 31);
             this.toolStripComboBox_WindowItems.Text = "Null";
             this.toolStripComboBox_WindowItems.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox_WindowItems_SelectedIndexChanged);
             // 
@@ -220,7 +220,7 @@ namespace SerialClient
             this.toolStripbtn_SpectrumWindowed.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripbtn_SpectrumWindowed.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.toolStripbtn_SpectrumWindowed.Name = "toolStripbtn_SpectrumWindowed";
-            this.toolStripbtn_SpectrumWindowed.Size = new System.Drawing.Size(129, 28);
+            this.toolStripbtn_SpectrumWindowed.Size = new System.Drawing.Size(104, 28);
             this.toolStripbtn_SpectrumWindowed.Text = "Apply on Spectrum";
             this.toolStripbtn_SpectrumWindowed.Click += new System.EventHandler(this.toolStripbtn_SpectrumWindowed_Click);
             // 
@@ -234,34 +234,47 @@ namespace SerialClient
             this.toolStripbtn_YAisScale.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripbtn_YAisScale.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.toolStripbtn_YAisScale.Name = "toolStripbtn_YAisScale";
-            this.toolStripbtn_YAisScale.Size = new System.Drawing.Size(67, 28);
+            this.toolStripbtn_YAisScale.Size = new System.Drawing.Size(56, 28);
             this.toolStripbtn_YAisScale.Text = "Log scale";
             this.toolStripbtn_YAisScale.Click += new System.EventHandler(this.toolStripbtn_YAisScale_Click);
+            // 
+            // toolStripBtn_SavingData
+            // 
+            this.toolStripBtn_SavingData.BackColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripBtn_SavingData.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripBtn_SavingData.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripBtn_SavingData.ForeColor = System.Drawing.Color.White;
+            this.toolStripBtn_SavingData.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtn_SavingData.Image")));
+            this.toolStripBtn_SavingData.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripBtn_SavingData.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
+            this.toolStripBtn_SavingData.Name = "toolStripBtn_SavingData";
+            this.toolStripBtn_SavingData.Size = new System.Drawing.Size(78, 28);
+            this.toolStripBtn_SavingData.Text = "Save All Data";
+            this.toolStripBtn_SavingData.Click += new System.EventHandler(this.toolStripBtn_SavingData_Click);
             // 
             // Splitter
             // 
             this.Splitter.BackColor = System.Drawing.Color.Black;
             this.Splitter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Splitter.Location = new System.Drawing.Point(0, 31);
-            this.Splitter.Margin = new System.Windows.Forms.Padding(15);
+            this.Splitter.Margin = new System.Windows.Forms.Padding(11, 12, 11, 12);
             this.Splitter.Name = "Splitter";
             // 
             // Splitter.Panel1
             // 
             this.Splitter.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.Splitter.Panel1.Controls.Add(this.SubSplitContainer);
-            this.Splitter.Panel1.Margin = new System.Windows.Forms.Padding(15);
+            this.Splitter.Panel1.Margin = new System.Windows.Forms.Padding(11, 12, 11, 12);
             // 
             // Splitter.Panel2
             // 
             this.Splitter.Panel2.BackColor = System.Drawing.Color.Black;
             this.Splitter.Panel2.Controls.Add(this.btn_RemoveAllLines);
             this.Splitter.Panel2.Controls.Add(this.dgvplots);
-            this.Splitter.Panel2.Margin = new System.Windows.Forms.Padding(15, 15, 0, 15);
-            this.Splitter.Panel2.Padding = new System.Windows.Forms.Padding(0, 8, 8, 8);
-            this.Splitter.Size = new System.Drawing.Size(1229, 380);
-            this.Splitter.SplitterDistance = 1028;
-            this.Splitter.SplitterWidth = 5;
+            this.Splitter.Panel2.Margin = new System.Windows.Forms.Padding(11, 12, 0, 12);
+            this.Splitter.Panel2.Padding = new System.Windows.Forms.Padding(0, 6, 6, 6);
+            this.Splitter.Size = new System.Drawing.Size(922, 298);
+            this.Splitter.SplitterDistance = 771;
             this.Splitter.TabIndex = 3;
             // 
             // SubSplitContainer
@@ -276,17 +289,17 @@ namespace SerialClient
             this.SubSplitContainer.Panel1.BackColor = System.Drawing.Color.Black;
             this.SubSplitContainer.Panel1.Controls.Add(this.panel_DataPlot);
             this.SubSplitContainer.Panel1.ForeColor = System.Drawing.Color.White;
-            this.SubSplitContainer.Panel1.Padding = new System.Windows.Forms.Padding(8);
+            this.SubSplitContainer.Panel1.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
             // 
             // SubSplitContainer.Panel2
             // 
             this.SubSplitContainer.Panel2.BackColor = System.Drawing.Color.Black;
             this.SubSplitContainer.Panel2.Controls.Add(this.panel_Spectrum);
             this.SubSplitContainer.Panel2.ForeColor = System.Drawing.Color.White;
-            this.SubSplitContainer.Panel2.Padding = new System.Windows.Forms.Padding(8);
-            this.SubSplitContainer.Size = new System.Drawing.Size(1028, 380);
-            this.SubSplitContainer.SplitterDistance = 510;
-            this.SubSplitContainer.SplitterWidth = 15;
+            this.SubSplitContainer.Panel2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.SubSplitContainer.Size = new System.Drawing.Size(771, 298);
+            this.SubSplitContainer.SplitterDistance = 382;
+            this.SubSplitContainer.SplitterWidth = 11;
             this.SubSplitContainer.TabIndex = 0;
             // 
             // panel_DataPlot
@@ -294,9 +307,10 @@ namespace SerialClient
             this.panel_DataPlot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(112)))));
             this.panel_DataPlot.Controls.Add(this.label_FPS);
             this.panel_DataPlot.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_DataPlot.Location = new System.Drawing.Point(8, 8);
+            this.panel_DataPlot.Location = new System.Drawing.Point(6, 6);
+            this.panel_DataPlot.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel_DataPlot.Name = "panel_DataPlot";
-            this.panel_DataPlot.Size = new System.Drawing.Size(494, 364);
+            this.panel_DataPlot.Size = new System.Drawing.Size(370, 286);
             this.panel_DataPlot.TabIndex = 1;
             // 
             // label_FPS
@@ -305,9 +319,10 @@ namespace SerialClient
             this.label_FPS.BackColor = System.Drawing.Color.White;
             this.label_FPS.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label_FPS.ForeColor = System.Drawing.Color.Black;
-            this.label_FPS.Location = new System.Drawing.Point(2, 3);
+            this.label_FPS.Location = new System.Drawing.Point(2, 2);
+            this.label_FPS.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_FPS.Name = "label_FPS";
-            this.label_FPS.Size = new System.Drawing.Size(19, 19);
+            this.label_FPS.Size = new System.Drawing.Size(15, 15);
             this.label_FPS.TabIndex = 0;
             this.label_FPS.Text = "0";
             this.label_FPS.Visible = false;
@@ -317,11 +332,13 @@ namespace SerialClient
             this.panel_Spectrum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(112)))));
             this.panel_Spectrum.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Spectrum.ForeColor = System.Drawing.Color.White;
-            this.panel_Spectrum.Location = new System.Drawing.Point(8, 8);
+            this.panel_Spectrum.Location = new System.Drawing.Point(6, 6);
+            this.panel_Spectrum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel_Spectrum.Name = "panel_Spectrum";
-            this.panel_Spectrum.Size = new System.Drawing.Size(487, 364);
+            this.panel_Spectrum.Size = new System.Drawing.Size(366, 286);
             this.panel_Spectrum.TabIndex = 0;
             this.panel_Spectrum.SizeChanged += new System.EventHandler(this.panel_Spectrum_SizeChanged);
+            this.panel_Spectrum.Resize += new System.EventHandler(this.FrmResize);
             // 
             // btn_RemoveAllLines
             // 
@@ -329,9 +346,10 @@ namespace SerialClient
             this.btn_RemoveAllLines.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btn_RemoveAllLines.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_RemoveAllLines.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_RemoveAllLines.Location = new System.Drawing.Point(0, 347);
+            this.btn_RemoveAllLines.Location = new System.Drawing.Point(0, 272);
+            this.btn_RemoveAllLines.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_RemoveAllLines.Name = "btn_RemoveAllLines";
-            this.btn_RemoveAllLines.Size = new System.Drawing.Size(188, 25);
+            this.btn_RemoveAllLines.Size = new System.Drawing.Size(141, 20);
             this.btn_RemoveAllLines.TabIndex = 1;
             this.btn_RemoveAllLines.Text = "Remove all lines";
             this.btn_RemoveAllLines.UseVisualStyleBackColor = false;
@@ -374,7 +392,7 @@ namespace SerialClient
             this.dgvplots.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dgvplots.EnableHeadersVisualStyles = false;
             this.dgvplots.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
-            this.dgvplots.Location = new System.Drawing.Point(0, 8);
+            this.dgvplots.Location = new System.Drawing.Point(0, 6);
             this.dgvplots.Margin = new System.Windows.Forms.Padding(0);
             this.dgvplots.Name = "dgvplots";
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -397,7 +415,7 @@ namespace SerialClient
             this.dgvplots.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
             this.dgvplots.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.dgvplots.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvplots.Size = new System.Drawing.Size(188, 364);
+            this.dgvplots.Size = new System.Drawing.Size(141, 286);
             this.dgvplots.TabIndex = 0;
             this.dgvplots.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvplots_CellValueChanged);
             // 
@@ -423,28 +441,14 @@ namespace SerialClient
             this.Signal.Name = "Signal";
             this.Signal.Width = 155;
             // 
-            // toolStripBtn_SavingData
-            // 
-            this.toolStripBtn_SavingData.BackColor = System.Drawing.Color.MidnightBlue;
-            this.toolStripBtn_SavingData.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripBtn_SavingData.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold);
-            this.toolStripBtn_SavingData.ForeColor = System.Drawing.Color.White;
-            this.toolStripBtn_SavingData.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtn_SavingData.Image")));
-            this.toolStripBtn_SavingData.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripBtn_SavingData.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
-            this.toolStripBtn_SavingData.Name = "toolStripBtn_SavingData";
-            this.toolStripBtn_SavingData.Size = new System.Drawing.Size(92, 28);
-            this.toolStripBtn_SavingData.Text = "Save All Data";
-            this.toolStripBtn_SavingData.Click += new System.EventHandler(this.toolStripBtn_SavingData_Click);
-            // 
             // DataPlotter
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1229, 411);
+            this.ClientSize = new System.Drawing.Size(922, 329);
             this.Controls.Add(this.Splitter);
             this.Controls.Add(this.toolStrip1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DataPlotter";
             this.Text = "Serial Plotter";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DataPlotter_FormClosing);

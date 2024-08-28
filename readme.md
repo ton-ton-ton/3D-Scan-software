@@ -4,9 +4,14 @@
 
 ## 介紹
 
-![專案封面圖](doc/3.jpg)
+> 需與本研究自主開發的 3D 點雲擷取設備搭配使用
 
-> 此專案是一份 README 的撰寫範本，主要是方便所有人可以快速撰寫 README，讓大家可以更有方向的去寫出 README。
+
+![專案封面圖](doc/MainForm.png)
+
+
+
+
 
 - [線上觀看連結](https://israynotarray.com/)
 
