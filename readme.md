@@ -4,7 +4,7 @@
 
 ## 介紹
 
-<span style="color:black">> 需與本研究自主開發的 3D 點雲擷取設備搭配使用</span>
+><span style="color:black"> 需與本研究自主開發的 3D 點雲擷取設備搭配使用</span>
 
 
 ![專案封面圖](doc/MainForm.png)
