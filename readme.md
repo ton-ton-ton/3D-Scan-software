@@ -1,7 +1,7 @@
 <!--底下標籤來源參考寫法可至：https://github.com/Envoy-VC/awesome-badges#github-stats -->
 
 
-![](https://img.shields.io/badge/語法-C%23-blue) &nbsp; ![](https://img.shields.io/badge/框架-.Net&nbsp;Framework&nbsp;4.8-blue) &nbsp; ![](https://img.shields.io/badge/作業系統-Windows-blue) &nbsp; ![](https://img.shields.io/badge/UI-Windos&nbsp;Forms-blue)
+>技術架構 <div style=text-align:center;vertical-align:bottom>![](https://img.shields.io/badge/語法-C%23-blue) &nbsp; ![](https://img.shields.io/badge/框架-.Net&nbsp;Framework&nbsp;4.8-blue) &nbsp; ![](https://img.shields.io/badge/作業系統-Windows-blue) &nbsp; ![](https://img.shields.io/badge/UI-Windos&nbsp;Forms-blue)</div>
 
 ## 介紹
 
@@ -11,9 +11,13 @@
 
 ### 其他輔助工具區
 - 讀取各類型點雲數據：可讀取常見的點雲儲存格式，例如 | * *.ply |* * *.obj* | *  *.pcd* | * *.txt*。
+
 - 串口序列埠：即時顯示串口上讀取到的數據資料。
-- 串口圖像序列埠：即時將串口上的數據資料以`折線圖`的圖表方式呈現。
+
+- 串口圖像序列埠：即時將串口上的數據資料以**折線圖**的圖表方式呈現。
+
 - 光學位移感測之影像輸出：讀取滑鼠光學位移感測器上的即時影像，目前僅接受 30 X 30 像素 (pixel) 的畫面輸出。
+
 - 數據分析表：針對感興趣的數據來顯示。
 
 
