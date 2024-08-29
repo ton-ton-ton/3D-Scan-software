@@ -1,7 +1,7 @@
 <!--底下標籤來源參考寫法可至：https://github.com/Envoy-VC/awesome-badges#github-stats -->
 
 
->技術架構 <div style="text-align:center;vertical-align:bottom">![](https://img.shields.io/badge/語法-C%23-blue) &nbsp; ![](https://img.shields.io/badge/框架-.Net&nbsp;Framework&nbsp;4.8-blue) &nbsp; ![](https://img.shields.io/badge/作業系統-Windows-blue) &nbsp; ![](https://img.shields.io/badge/UI-Windos&nbsp;Forms-blue)</div>
+
 
 ## 介紹
 
@@ -42,6 +42,9 @@
 ### 點雲顯示區
 顯示操作本系統的執行日誌，用以確認當下執行流程與程式執行狀態
 
+## 技術架構
+
+![](https://img.shields.io/badge/語法-C%23-blue) &nbsp;&nbsp; ![](https://img.shields.io/badge/框架-.Net&nbsp;Framework&nbsp;4.8-blue) &nbsp;&nbsp; ![](https://img.shields.io/badge/作業系統-Windows-blue) &nbsp;&nbsp; ![](https://img.shields.io/badge/UI-Windos&nbsp;Forms-blue) 
 
 ## 第三方開源函式庫
 ![](https://img.shields.io/badge/Accord-3.8.2-greenyellow) &nbsp; ![](https://img.shields.io/badge/Activiz.NET-5.8.0-greenyellow) &nbsp; ![](https://img.shields.io/badge/FontAwesome.Sharp-6.6.0-greenyellow) &nbsp; ![](https://img.shields.io/badge/OxyPlot-1.0.0-greenyellow) &nbsp; ![](https://img.shields.io/badge/PCL-1.12.0-greenyellow) 
@@ -50,3 +53,4 @@
 
 >如有疑問或是建議，歡迎隨時在論壇內發布消息或寄送電子郵件至 kenny3271879@gmail.com。如要回報技術上的錯誤，也可在 Github 上提交問題。
 
+ 
