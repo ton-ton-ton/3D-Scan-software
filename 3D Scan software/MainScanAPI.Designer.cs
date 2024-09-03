@@ -94,7 +94,7 @@ namespace _3D_Scan_software
             toolStripSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             toolStripSeparator1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new System.Drawing.Size(101, 6);
+            toolStripSeparator1.Size = new System.Drawing.Size(127, 6);
             // 
             // panelTitleBar
             // 
@@ -105,9 +105,9 @@ namespace _3D_Scan_software
             this.panelTitleBar.Controls.Add(this.BtnMinimize);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(0, 0);
-            this.panelTitleBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTitleBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(1059, 31);
+            this.panelTitleBar.Size = new System.Drawing.Size(1412, 39);
             this.panelTitleBar.TabIndex = 0;
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainScanAPI_MouseDown);
             // 
@@ -119,10 +119,9 @@ namespace _3D_Scan_software
             this.label1.Font = new System.Drawing.Font("新細明體", 10F);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
-            this.label1.Size = new System.Drawing.Size(61, 14);
+            this.label1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.label1.Size = new System.Drawing.Size(72, 17);
             this.label1.TabIndex = 3;
             this.label1.Text = "3D Scan ";
             // 
@@ -135,10 +134,10 @@ namespace _3D_Scan_software
             this.BtnMaximum.IconColor = System.Drawing.Color.White;
             this.BtnMaximum.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnMaximum.IconSize = 20;
-            this.BtnMaximum.Location = new System.Drawing.Point(1007, 0);
-            this.BtnMaximum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnMaximum.Location = new System.Drawing.Point(1343, 0);
+            this.BtnMaximum.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnMaximum.Name = "BtnMaximum";
-            this.BtnMaximum.Size = new System.Drawing.Size(24, 18);
+            this.BtnMaximum.Size = new System.Drawing.Size(32, 22);
             this.BtnMaximum.TabIndex = 2;
             this.BtnMaximum.UseVisualStyleBackColor = true;
             this.BtnMaximum.Click += new System.EventHandler(this.BtnMaximum_Click);
@@ -152,10 +151,10 @@ namespace _3D_Scan_software
             this.btnExit.IconColor = System.Drawing.Color.White;
             this.btnExit.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnExit.IconSize = 20;
-            this.btnExit.Location = new System.Drawing.Point(1035, 0);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Location = new System.Drawing.Point(1380, 0);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(22, 18);
+            this.btnExit.Size = new System.Drawing.Size(29, 22);
             this.btnExit.TabIndex = 1;
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -169,10 +168,10 @@ namespace _3D_Scan_software
             this.BtnMinimize.IconColor = System.Drawing.Color.White;
             this.BtnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnMinimize.IconSize = 20;
-            this.BtnMinimize.Location = new System.Drawing.Point(978, 0);
-            this.BtnMinimize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnMinimize.Location = new System.Drawing.Point(1304, 0);
+            this.BtnMinimize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnMinimize.Name = "BtnMinimize";
-            this.BtnMinimize.Size = new System.Drawing.Size(24, 18);
+            this.BtnMinimize.Size = new System.Drawing.Size(32, 22);
             this.BtnMinimize.TabIndex = 0;
             this.BtnMinimize.UseVisualStyleBackColor = true;
             this.BtnMinimize.Click += new System.EventHandler(this.BtnMinimize_Click);
@@ -182,10 +181,10 @@ namespace _3D_Scan_software
             this.panelToolBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.panelToolBar.Controls.Add(this.menuStrip1);
             this.panelToolBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelToolBar.Location = new System.Drawing.Point(0, 31);
-            this.panelToolBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelToolBar.Location = new System.Drawing.Point(0, 39);
+            this.panelToolBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelToolBar.Name = "panelToolBar";
-            this.panelToolBar.Size = new System.Drawing.Size(1059, 34);
+            this.panelToolBar.Size = new System.Drawing.Size(1412, 42);
             this.panelToolBar.TabIndex = 1;
             this.panelToolBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainScanAPI_MouseDown);
             // 
@@ -200,8 +199,8 @@ namespace _3D_Scan_software
             this.ToolToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1059, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1412, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "Toolstrip";
             this.menuStrip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainScanAPI_MouseDown);
@@ -219,7 +218,7 @@ namespace _3D_Scan_software
             this.toolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.toolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(34, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(43, 20);
             this.toolStripMenuItem1.Text = "File";
             // 
             // toolStripMenuItem2
@@ -234,7 +233,7 @@ namespace _3D_Scan_software
             this.toolStripMenuItem2.Font = new System.Drawing.Font("新細明體", 9F);
             this.toolStripMenuItem2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(104, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(130, 26);
             this.toolStripMenuItem2.Text = "Open";
             this.toolStripMenuItem2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -243,7 +242,7 @@ namespace _3D_Scan_software
             this.PCDFileToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.PCDFileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Window;
             this.PCDFileToolStripMenuItem.Name = "PCDFileToolStripMenuItem";
-            this.PCDFileToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.PCDFileToolStripMenuItem.Size = new System.Drawing.Size(139, 26);
             this.PCDFileToolStripMenuItem.Text = "PCD file";
             this.PCDFileToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.PCDFileToolStripMenuItem.Click += new System.EventHandler(this.PCDFileToolStripMenuItem_Click);
@@ -253,7 +252,7 @@ namespace _3D_Scan_software
             this.PLYFileToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.PLYFileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Window;
             this.PLYFileToolStripMenuItem.Name = "PLYFileToolStripMenuItem";
-            this.PLYFileToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.PLYFileToolStripMenuItem.Size = new System.Drawing.Size(139, 26);
             this.PLYFileToolStripMenuItem.Text = "PLY file";
             this.PLYFileToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.PLYFileToolStripMenuItem.Click += new System.EventHandler(this.PLYFileToolStripMenuItem_Click);
@@ -263,7 +262,7 @@ namespace _3D_Scan_software
             this.STLFileToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.STLFileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Window;
             this.STLFileToolStripMenuItem.Name = "STLFileToolStripMenuItem";
-            this.STLFileToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.STLFileToolStripMenuItem.Size = new System.Drawing.Size(139, 26);
             this.STLFileToolStripMenuItem.Text = "STL file";
             this.STLFileToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -272,7 +271,7 @@ namespace _3D_Scan_software
             this.TxtFileStripMenuItem4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.TxtFileStripMenuItem4.ForeColor = System.Drawing.SystemColors.Window;
             this.TxtFileStripMenuItem4.Name = "TxtFileStripMenuItem4";
-            this.TxtFileStripMenuItem4.Size = new System.Drawing.Size(110, 22);
+            this.TxtFileStripMenuItem4.Size = new System.Drawing.Size(139, 26);
             this.TxtFileStripMenuItem4.Text = "TXT file";
             this.TxtFileStripMenuItem4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.TxtFileStripMenuItem4.Click += new System.EventHandler(this.TxtFileStripMenuItem4_Click);
@@ -282,7 +281,7 @@ namespace _3D_Scan_software
             this.OBJFileToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.OBJFileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Window;
             this.OBJFileToolStripMenuItem.Name = "OBJFileToolStripMenuItem";
-            this.OBJFileToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.OBJFileToolStripMenuItem.Size = new System.Drawing.Size(139, 26);
             this.OBJFileToolStripMenuItem.Text = "OBJ file";
             this.OBJFileToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.OBJFileToolStripMenuItem.Click += new System.EventHandler(this.OBJFileToolStripMenuItem_Click);
@@ -293,7 +292,7 @@ namespace _3D_Scan_software
             this.saveToolStripMenuItem.Font = new System.Drawing.Font("新細明體", 9F);
             this.saveToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // saveAsToolStripMenuItem
@@ -302,7 +301,7 @@ namespace _3D_Scan_software
             this.saveAsToolStripMenuItem.Font = new System.Drawing.Font("新細明體", 9F);
             this.saveAsToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
             this.saveAsToolStripMenuItem.Text = "Save as";
             // 
             // viewToolStripMenuItem
@@ -310,7 +309,7 @@ namespace _3D_Scan_software
             this.viewToolStripMenuItem.Font = new System.Drawing.Font("新細明體", 9F);
             this.viewToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Window;
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.viewToolStripMenuItem.Text = "View";
             // 
             // toolStripMenuItem3
@@ -318,7 +317,7 @@ namespace _3D_Scan_software
             this.toolStripMenuItem3.Font = new System.Drawing.Font("新細明體", 9F);
             this.toolStripMenuItem3.ForeColor = System.Drawing.SystemColors.Window;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(39, 20);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(48, 20);
             this.toolStripMenuItem3.Text = "Help";
             // 
             // ToolToolStripMenuItem
@@ -331,7 +330,7 @@ namespace _3D_Scan_software
             this.ToolToolStripMenuItem.Font = new System.Drawing.Font("新細明體", 9F);
             this.ToolToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Window;
             this.ToolToolStripMenuItem.Name = "ToolToolStripMenuItem";
-            this.ToolToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.ToolToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.ToolToolStripMenuItem.Text = "Tool";
             // 
             // serialClientToolStripMenuItem
@@ -339,7 +338,7 @@ namespace _3D_Scan_software
             this.serialClientToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.serialClientToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.serialClientToolStripMenuItem.Name = "serialClientToolStripMenuItem";
-            this.serialClientToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.serialClientToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
             this.serialClientToolStripMenuItem.Text = "SerialClient";
             this.serialClientToolStripMenuItem.Click += new System.EventHandler(this.serialClientToolStripMenuItem_Click);
             // 
@@ -348,7 +347,7 @@ namespace _3D_Scan_software
             this.analysisChartToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.analysisChartToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.analysisChartToolStripMenuItem.Name = "analysisChartToolStripMenuItem";
-            this.analysisChartToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.analysisChartToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
             this.analysisChartToolStripMenuItem.Text = "Analysis Chart";
             this.analysisChartToolStripMenuItem.Click += new System.EventHandler(this.analysisChartToolStripMenuItem_Click);
             // 
@@ -357,7 +356,7 @@ namespace _3D_Scan_software
             this.frameCaptureToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.frameCaptureToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.frameCaptureToolStripMenuItem.Name = "frameCaptureToolStripMenuItem";
-            this.frameCaptureToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.frameCaptureToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
             this.frameCaptureToolStripMenuItem.Text = "Frame Capture";
             this.frameCaptureToolStripMenuItem.Click += new System.EventHandler(this.frameCaptureToolStripMenuItem_Click);
             // 
@@ -366,7 +365,7 @@ namespace _3D_Scan_software
             this.fFTToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.fFTToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.fFTToolStripMenuItem.Name = "fFTToolStripMenuItem";
-            this.fFTToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.fFTToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
             this.fFTToolStripMenuItem.Text = "FFT";
             // 
             // panelMode
@@ -374,11 +373,11 @@ namespace _3D_Scan_software
             this.panelMode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(45)))), ((int)(((byte)(86)))));
             this.panelMode.Controls.Add(this.panelSubmode);
             this.panelMode.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelMode.Location = new System.Drawing.Point(0, 614);
-            this.panelMode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMode.Location = new System.Drawing.Point(0, 768);
+            this.panelMode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelMode.Name = "panelMode";
-            this.panelMode.Padding = new System.Windows.Forms.Padding(11, 2, 11, 2);
-            this.panelMode.Size = new System.Drawing.Size(1059, 89);
+            this.panelMode.Padding = new System.Windows.Forms.Padding(15, 2, 15, 2);
+            this.panelMode.Size = new System.Drawing.Size(1412, 111);
             this.panelMode.TabIndex = 2;
             // 
             // panelSubmode
@@ -389,10 +388,10 @@ namespace _3D_Scan_software
             this.panelSubmode.Controls.Add(this.iconBtnCurFil);
             this.panelSubmode.Controls.Add(this.iconBtnOutput);
             this.panelSubmode.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelSubmode.Location = new System.Drawing.Point(11, 2);
+            this.panelSubmode.Location = new System.Drawing.Point(15, 2);
             this.panelSubmode.Margin = new System.Windows.Forms.Padding(0);
             this.panelSubmode.Name = "panelSubmode";
-            this.panelSubmode.Size = new System.Drawing.Size(1037, 85);
+            this.panelSubmode.Size = new System.Drawing.Size(1382, 107);
             this.panelSubmode.TabIndex = 1;
             // 
             // iconBtnSetting
@@ -411,10 +410,10 @@ namespace _3D_Scan_software
             this.iconBtnSetting.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconBtnSetting.IconSize = 60;
             this.iconBtnSetting.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconBtnSetting.Location = new System.Drawing.Point(44, 3);
+            this.iconBtnSetting.Location = new System.Drawing.Point(59, 4);
             this.iconBtnSetting.Margin = new System.Windows.Forms.Padding(0);
             this.iconBtnSetting.Name = "iconBtnSetting";
-            this.iconBtnSetting.Size = new System.Drawing.Size(72, 85);
+            this.iconBtnSetting.Size = new System.Drawing.Size(96, 107);
             this.iconBtnSetting.TabIndex = 2;
             this.iconBtnSetting.Text = "Setting";
             this.iconBtnSetting.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -440,10 +439,10 @@ namespace _3D_Scan_software
             this.iconBtnScan.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconBtnScan.IconSize = 60;
             this.iconBtnScan.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconBtnScan.Location = new System.Drawing.Point(325, 3);
-            this.iconBtnScan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconBtnScan.Location = new System.Drawing.Point(433, 4);
+            this.iconBtnScan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconBtnScan.Name = "iconBtnScan";
-            this.iconBtnScan.Size = new System.Drawing.Size(72, 85);
+            this.iconBtnScan.Size = new System.Drawing.Size(96, 107);
             this.iconBtnScan.TabIndex = 3;
             this.iconBtnScan.Text = "Scan";
             this.iconBtnScan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -469,10 +468,10 @@ namespace _3D_Scan_software
             this.iconBtnCurFil.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconBtnCurFil.IconSize = 60;
             this.iconBtnCurFil.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconBtnCurFil.Location = new System.Drawing.Point(602, 3);
-            this.iconBtnCurFil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconBtnCurFil.Location = new System.Drawing.Point(803, 4);
+            this.iconBtnCurFil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconBtnCurFil.Name = "iconBtnCurFil";
-            this.iconBtnCurFil.Size = new System.Drawing.Size(116, 85);
+            this.iconBtnCurFil.Size = new System.Drawing.Size(155, 107);
             this.iconBtnCurFil.TabIndex = 4;
             this.iconBtnCurFil.Text = "Curve / Filting";
             this.iconBtnCurFil.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -498,10 +497,10 @@ namespace _3D_Scan_software
             this.iconBtnOutput.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconBtnOutput.IconSize = 60;
             this.iconBtnOutput.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconBtnOutput.Location = new System.Drawing.Point(922, 3);
-            this.iconBtnOutput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconBtnOutput.Location = new System.Drawing.Point(1229, 4);
+            this.iconBtnOutput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconBtnOutput.Name = "iconBtnOutput";
-            this.iconBtnOutput.Size = new System.Drawing.Size(72, 85);
+            this.iconBtnOutput.Size = new System.Drawing.Size(96, 107);
             this.iconBtnOutput.TabIndex = 5;
             this.iconBtnOutput.Text = "Output";
             this.iconBtnOutput.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -516,19 +515,19 @@ namespace _3D_Scan_software
             this.panelMidle.BackColor = System.Drawing.Color.Black;
             this.panelMidle.Controls.Add(this.SplitterEditorVisua);
             this.panelMidle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMidle.Location = new System.Drawing.Point(0, 65);
-            this.panelMidle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panelMidle.MinimumSize = new System.Drawing.Size(835, 431);
+            this.panelMidle.Location = new System.Drawing.Point(0, 81);
+            this.panelMidle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelMidle.MinimumSize = new System.Drawing.Size(1113, 539);
             this.panelMidle.Name = "panelMidle";
-            this.panelMidle.Padding = new System.Windows.Forms.Padding(0, 12, 11, 12);
-            this.panelMidle.Size = new System.Drawing.Size(1059, 549);
+            this.panelMidle.Padding = new System.Windows.Forms.Padding(0, 15, 15, 15);
+            this.panelMidle.Size = new System.Drawing.Size(1412, 687);
             this.panelMidle.TabIndex = 3;
             // 
             // SplitterEditorVisua
             // 
             this.SplitterEditorVisua.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SplitterEditorVisua.Location = new System.Drawing.Point(0, 12);
-            this.SplitterEditorVisua.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SplitterEditorVisua.Location = new System.Drawing.Point(0, 15);
+            this.SplitterEditorVisua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SplitterEditorVisua.Name = "SplitterEditorVisua";
             // 
             // SplitterEditorVisua.Panel1
@@ -544,9 +543,9 @@ namespace _3D_Scan_software
             // 
             this.SplitterEditorVisua.Panel2.Controls.Add(this.panel_Pos);
             this.SplitterEditorVisua.Panel2.Controls.Add(this.panelVirsualixtion);
-            this.SplitterEditorVisua.Size = new System.Drawing.Size(1048, 525);
-            this.SplitterEditorVisua.SplitterDistance = 267;
-            this.SplitterEditorVisua.SplitterWidth = 11;
+            this.SplitterEditorVisua.Size = new System.Drawing.Size(1397, 657);
+            this.SplitterEditorVisua.SplitterDistance = 355;
+            this.SplitterEditorVisua.SplitterWidth = 15;
             this.SplitterEditorVisua.TabIndex = 5;
             // 
             // rtb_MainStatus
@@ -556,11 +555,11 @@ namespace _3D_Scan_software
             this.rtb_MainStatus.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.rtb_MainStatus.Font = new System.Drawing.Font("Microsoft JhengHei UI", 10F);
             this.rtb_MainStatus.ForeColor = System.Drawing.Color.White;
-            this.rtb_MainStatus.Location = new System.Drawing.Point(0, 445);
-            this.rtb_MainStatus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtb_MainStatus.Location = new System.Drawing.Point(0, 557);
+            this.rtb_MainStatus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtb_MainStatus.Name = "rtb_MainStatus";
             this.rtb_MainStatus.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.rtb_MainStatus.Size = new System.Drawing.Size(267, 80);
+            this.rtb_MainStatus.Size = new System.Drawing.Size(355, 100);
             this.rtb_MainStatus.TabIndex = 3;
             this.rtb_MainStatus.TabStop = false;
             this.rtb_MainStatus.Text = "";
@@ -572,10 +571,10 @@ namespace _3D_Scan_software
             this.subMenu1_Setting.Dock = System.Windows.Forms.DockStyle.Fill;
             this.subMenu1_Setting.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.subMenu1_Setting.Location = new System.Drawing.Point(0, 0);
-            this.subMenu1_Setting.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.subMenu1_Setting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.subMenu1_Setting.Name = "subMenu1_Setting";
             this.subMenu1_Setting.ShowStatus = true;
-            this.subMenu1_Setting.Size = new System.Drawing.Size(267, 525);
+            this.subMenu1_Setting.Size = new System.Drawing.Size(355, 657);
             this.subMenu1_Setting.TabIndex = 1;
             this.subMenu1_Setting.DoubleClick += new System.EventHandler(this.subMenu11_DoubleClick);
             // 
@@ -586,11 +585,11 @@ namespace _3D_Scan_software
             this.SubMenu1_Scan.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SubMenu1_Scan.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.SubMenu1_Scan.Location = new System.Drawing.Point(0, 0);
-            this.SubMenu1_Scan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubMenu1_Scan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SubMenu1_Scan.Name = "SubMenu1_Scan";
             this.SubMenu1_Scan.SensorOperatingStatus = false;
             this.SubMenu1_Scan.ShowStatus = false;
-            this.SubMenu1_Scan.Size = new System.Drawing.Size(267, 525);
+            this.SubMenu1_Scan.Size = new System.Drawing.Size(355, 657);
             this.SubMenu1_Scan.TabIndex = 1;
             this.SubMenu1_Scan.Visible = false;
             this.SubMenu1_Scan.DoubleClick += new System.EventHandler(this.subMenu11_DoubleClick);
@@ -602,10 +601,10 @@ namespace _3D_Scan_software
             this.SubMenu1_CurFil.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SubMenu1_CurFil.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.SubMenu1_CurFil.Location = new System.Drawing.Point(0, 0);
-            this.SubMenu1_CurFil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubMenu1_CurFil.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SubMenu1_CurFil.Name = "SubMenu1_CurFil";
             this.SubMenu1_CurFil.ShowStatus = false;
-            this.SubMenu1_CurFil.Size = new System.Drawing.Size(267, 525);
+            this.SubMenu1_CurFil.Size = new System.Drawing.Size(355, 657);
             this.SubMenu1_CurFil.TabIndex = 1;
             this.SubMenu1_CurFil.Visible = false;
             this.SubMenu1_CurFil.DoubleClick += new System.EventHandler(this.subMenu11_DoubleClick);
@@ -618,11 +617,11 @@ namespace _3D_Scan_software
             this.SubMenu1_Output.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SubMenu1_Output.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.SubMenu1_Output.Location = new System.Drawing.Point(0, 0);
-            this.SubMenu1_Output.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.SubMenu1_Output.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.SubMenu1_Output.Name = "SubMenu1_Output";
             this.SubMenu1_Output.SaveStatus = false;
             this.SubMenu1_Output.ShowStatus = false;
-            this.SubMenu1_Output.Size = new System.Drawing.Size(267, 525);
+            this.SubMenu1_Output.Size = new System.Drawing.Size(355, 657);
             this.SubMenu1_Output.TabIndex = 1;
             this.SubMenu1_Output.Visible = false;
             this.SubMenu1_Output.DoubleClick += new System.EventHandler(this.subMenu11_DoubleClick);
@@ -637,19 +636,18 @@ namespace _3D_Scan_software
             this.panel_Pos.Controls.Add(this.lb_xPos);
             this.panel_Pos.Controls.Add(this.lb_X);
             this.panel_Pos.Location = new System.Drawing.Point(0, 0);
-            this.panel_Pos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_Pos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel_Pos.Name = "panel_Pos";
-            this.panel_Pos.Size = new System.Drawing.Size(190, 19);
+            this.panel_Pos.Size = new System.Drawing.Size(253, 24);
             this.panel_Pos.TabIndex = 0;
             // 
             // lb_Z
             // 
             this.lb_Z.AutoSize = true;
             this.lb_Z.ForeColor = System.Drawing.Color.White;
-            this.lb_Z.Location = new System.Drawing.Point(126, 0);
-            this.lb_Z.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_Z.Location = new System.Drawing.Point(168, 0);
             this.lb_Z.Name = "lb_Z";
-            this.lb_Z.Size = new System.Drawing.Size(18, 12);
+            this.lb_Z.Size = new System.Drawing.Size(24, 15);
             this.lb_Z.TabIndex = 4;
             this.lb_Z.Text = " Z:";
             // 
@@ -657,10 +655,9 @@ namespace _3D_Scan_software
             // 
             this.lb_zPos.AutoSize = true;
             this.lb_zPos.ForeColor = System.Drawing.Color.White;
-            this.lb_zPos.Location = new System.Drawing.Point(142, 0);
-            this.lb_zPos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_zPos.Location = new System.Drawing.Point(189, 0);
             this.lb_zPos.Name = "lb_zPos";
-            this.lb_zPos.Size = new System.Drawing.Size(20, 12);
+            this.lb_zPos.Size = new System.Drawing.Size(25, 15);
             this.lb_zPos.TabIndex = 5;
             this.lb_zPos.Text = "0.0";
             // 
@@ -668,10 +665,9 @@ namespace _3D_Scan_software
             // 
             this.lb_yPos.AutoSize = true;
             this.lb_yPos.ForeColor = System.Drawing.Color.White;
-            this.lb_yPos.Location = new System.Drawing.Point(79, 0);
-            this.lb_yPos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_yPos.Location = new System.Drawing.Point(105, 0);
             this.lb_yPos.Name = "lb_yPos";
-            this.lb_yPos.Size = new System.Drawing.Size(20, 12);
+            this.lb_yPos.Size = new System.Drawing.Size(25, 15);
             this.lb_yPos.TabIndex = 3;
             this.lb_yPos.Text = "0.0";
             // 
@@ -679,10 +675,9 @@ namespace _3D_Scan_software
             // 
             this.lb_Y.AutoSize = true;
             this.lb_Y.ForeColor = System.Drawing.Color.White;
-            this.lb_Y.Location = new System.Drawing.Point(63, 0);
-            this.lb_Y.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_Y.Location = new System.Drawing.Point(84, 0);
             this.lb_Y.Name = "lb_Y";
-            this.lb_Y.Size = new System.Drawing.Size(19, 12);
+            this.lb_Y.Size = new System.Drawing.Size(25, 15);
             this.lb_Y.TabIndex = 2;
             this.lb_Y.Text = " Y:";
             // 
@@ -691,10 +686,9 @@ namespace _3D_Scan_software
             this.lb_xPos.AutoSize = true;
             this.lb_xPos.Dock = System.Windows.Forms.DockStyle.Left;
             this.lb_xPos.ForeColor = System.Drawing.Color.White;
-            this.lb_xPos.Location = new System.Drawing.Point(16, 0);
-            this.lb_xPos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lb_xPos.Location = new System.Drawing.Point(21, 0);
             this.lb_xPos.Name = "lb_xPos";
-            this.lb_xPos.Size = new System.Drawing.Size(20, 12);
+            this.lb_xPos.Size = new System.Drawing.Size(25, 15);
             this.lb_xPos.TabIndex = 1;
             this.lb_xPos.Text = "0.0";
             // 
@@ -704,9 +698,8 @@ namespace _3D_Scan_software
             this.lb_X.Dock = System.Windows.Forms.DockStyle.Left;
             this.lb_X.ForeColor = System.Drawing.Color.White;
             this.lb_X.Location = new System.Drawing.Point(0, 0);
-            this.lb_X.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_X.Name = "lb_X";
-            this.lb_X.Size = new System.Drawing.Size(16, 12);
+            this.lb_X.Size = new System.Drawing.Size(21, 15);
             this.lb_X.TabIndex = 0;
             this.lb_X.Text = "X:";
             // 
@@ -715,9 +708,9 @@ namespace _3D_Scan_software
             this.panelVirsualixtion.AutoSize = true;
             this.panelVirsualixtion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelVirsualixtion.Location = new System.Drawing.Point(0, 0);
-            this.panelVirsualixtion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelVirsualixtion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelVirsualixtion.Name = "panelVirsualixtion";
-            this.panelVirsualixtion.Size = new System.Drawing.Size(770, 525);
+            this.panelVirsualixtion.Size = new System.Drawing.Size(1027, 657);
             this.panelVirsualixtion.TabIndex = 1;
             // 
             // iconDropDownButton1
@@ -731,20 +724,20 @@ namespace _3D_Scan_software
             // 
             // MainScanAPI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(105)))));
-            this.ClientSize = new System.Drawing.Size(1059, 703);
+            this.ClientSize = new System.Drawing.Size(1412, 879);
             this.ControlBox = false;
             this.Controls.Add(this.panelMidle);
             this.Controls.Add(this.panelMode);
             this.Controls.Add(this.panelToolBar);
             this.Controls.Add(this.panelTitleBar);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(852, 693);
+            this.MinimumSize = new System.Drawing.Size(1130, 862);
             this.Name = "MainScanAPI";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

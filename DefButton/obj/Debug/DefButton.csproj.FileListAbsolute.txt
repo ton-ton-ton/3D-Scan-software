@@ -15,4 +15,3 @@ C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\DefButton\obj\Debug\Def
 C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\DefButton\obj\Debug\DefButton.csproj.CopyComplete
 C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\DefButton\obj\Debug\DefButton.dll
 C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\DefButton\obj\Debug\DefButton.pdb
-C:\Users\kenny\Desktop\Thesis\Code\MAIN\3D Scan software\DefButton\obj\Debug\DefButton.csproj.AssemblyReference.cache

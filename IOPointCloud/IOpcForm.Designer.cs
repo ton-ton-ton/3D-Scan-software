@@ -18,7 +18,7 @@ namespace IOPointCloud
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);
+            //base.Dispose(disposing);
         }
 
         #region Windows Form 設計工具產生的程式碼
