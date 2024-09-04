@@ -1,7 +1,3 @@
-<!--底下標籤來源參考寫法可至：https://github.com/Envoy-VC/awesome-badges#github-stats -->
-
-
-
 
 ## 介紹
 
